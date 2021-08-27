@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E016D6F726D83002001477CA /* StyleGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = E016D6F626D83002001477CA /* StyleGuide.swift */; };
+		E016D70126D84463001477CA /* CalculatorTextFields.swift in Sources */ = {isa = PBXBuildFile; fileRef = E016D70026D84463001477CA /* CalculatorTextFields.swift */; };
+		E016D70326D84748001477CA /* CalculatorLabels.swift in Sources */ = {isa = PBXBuildFile; fileRef = E016D70226D84748001477CA /* CalculatorLabels.swift */; };
+		E016D70526D84A43001477CA /* CalculatorButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = E016D70426D84A43001477CA /* CalculatorButtons.swift */; };
+		E016D70726D84BEE001477CA /* CalculatorColorViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = E016D70626D84BEE001477CA /* CalculatorColorViews.swift */; };
+		E016D70926D84CDC001477CA /* CalculatorSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = E016D70826D84CDC001477CA /* CalculatorSegmentedControl.swift */; };
+		E016D71126D859C7001477CA /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E016D71026D8545E001477CA /* Poppins-Bold.ttf */; };
+		E016D71226D859CF001477CA /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E016D70F26D85456001477CA /* Poppins-Regular.ttf */; };
+		E016D71326D859D7001477CA /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E016D70E26D8544B001477CA /* Poppins-SemiBold.ttf */; };
 		E0BDDA6726CB109C009C7ED1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0BDDA6626CB109C009C7ED1 /* AppDelegate.swift */; };
 		E0BDDA6926CB109C009C7ED1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0BDDA6826CB109C009C7ED1 /* SceneDelegate.swift */; };
 		E0BDDA6E26CB109C009C7ED1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0BDDA6C26CB109C009C7ED1 /* Main.storyboard */; };
@@ -17,11 +26,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E016D6F626D83002001477CA /* StyleGuide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StyleGuide.swift; sourceTree = "<group>"; };
+		E016D70026D84463001477CA /* CalculatorTextFields.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorTextFields.swift; sourceTree = "<group>"; };
+		E016D70226D84748001477CA /* CalculatorLabels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorLabels.swift; sourceTree = "<group>"; };
+		E016D70426D84A43001477CA /* CalculatorButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorButtons.swift; sourceTree = "<group>"; };
+		E016D70626D84BEE001477CA /* CalculatorColorViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorColorViews.swift; sourceTree = "<group>"; };
+		E016D70826D84CDC001477CA /* CalculatorSegmentedControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorSegmentedControl.swift; sourceTree = "<group>"; };
+		E016D70E26D8544B001477CA /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
+		E016D70F26D85456001477CA /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		E016D71026D8545E001477CA /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-Bold.ttf"; path = "Calculator/Resources/Fonts/Poppins-Bold.ttf"; sourceTree = SOURCE_ROOT; };
 		E0BDDA6326CB109C009C7ED1 /* Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0BDDA6626CB109C009C7ED1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E0BDDA6826CB109C009C7ED1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		E0BDDA6D26CB109C009C7ED1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		E0BDDA6F26CB109E009C7ED1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E0BDDA6F26CB109E009C7ED1 /* Assets.xcassets */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = Assets.xcassets; sourceTree = "<group>"; };
 		E0BDDA7226CB109E009C7ED1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E0BDDA7426CB109E009C7ED1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E0BDDA8326CB16AF009C7ED1 /* CalculatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorViewController.swift; sourceTree = "<group>"; };
@@ -39,6 +57,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E016D6F526D82F85001477CA /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				E016D6F626D83002001477CA /* StyleGuide.swift */,
+				E016D70026D84463001477CA /* CalculatorTextFields.swift */,
+				E016D70226D84748001477CA /* CalculatorLabels.swift */,
+				E016D70426D84A43001477CA /* CalculatorButtons.swift */,
+				E016D70626D84BEE001477CA /* CalculatorColorViews.swift */,
+				E016D70826D84CDC001477CA /* CalculatorSegmentedControl.swift */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		E016D70D26D85422001477CA /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				E016D71026D8545E001477CA /* Poppins-Bold.ttf */,
+				E016D70F26D85456001477CA /* Poppins-Regular.ttf */,
+				E016D70E26D8544B001477CA /* Poppins-SemiBold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		E0BDDA5A26CB109C009C7ED1 = {
 			isa = PBXGroup;
 			children = (
@@ -69,6 +110,7 @@
 		E0BDDA7A26CB10A7009C7ED1 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				E016D70D26D85422001477CA /* Fonts */,
 				E0BDDA6626CB109C009C7ED1 /* AppDelegate.swift */,
 				E0BDDA6826CB109C009C7ED1 /* SceneDelegate.swift */,
 				E0BDDA6F26CB109E009C7ED1 /* Assets.xcassets */,
@@ -80,6 +122,7 @@
 		E0BDDA7C26CB10B4009C7ED1 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				E016D6F526D82F85001477CA /* CustomViews */,
 				E0BDDA8126CB10D8009C7ED1 /* Storyboards */,
 			);
 			path = Views;
@@ -175,6 +218,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E016D71326D859D7001477CA /* Poppins-SemiBold.ttf in Resources */,
+				E016D71226D859CF001477CA /* Poppins-Regular.ttf in Resources */,
+				E016D71126D859C7001477CA /* Poppins-Bold.ttf in Resources */,
 				E0BDDA7326CB109E009C7ED1 /* LaunchScreen.storyboard in Resources */,
 				E0BDDA7026CB109E009C7ED1 /* Assets.xcassets in Resources */,
 				E0BDDA6E26CB109C009C7ED1 /* Main.storyboard in Resources */,
@@ -189,8 +235,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				E0BDDA6726CB109C009C7ED1 /* AppDelegate.swift in Sources */,
+				E016D70126D84463001477CA /* CalculatorTextFields.swift in Sources */,
+				E016D70326D84748001477CA /* CalculatorLabels.swift in Sources */,
+				E016D70526D84A43001477CA /* CalculatorButtons.swift in Sources */,
+				E016D70926D84CDC001477CA /* CalculatorSegmentedControl.swift in Sources */,
 				E0BDDA6926CB109C009C7ED1 /* SceneDelegate.swift in Sources */,
 				E0BDDA8826CB5B97009C7ED1 /* Calculator.swift in Sources */,
+				E016D6F726D83002001477CA /* StyleGuide.swift in Sources */,
+				E016D70726D84BEE001477CA /* CalculatorColorViews.swift in Sources */,
 				E0BDDA8426CB16AF009C7ED1 /* CalculatorViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

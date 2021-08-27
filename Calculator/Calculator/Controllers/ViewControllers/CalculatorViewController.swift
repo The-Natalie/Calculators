@@ -4,8 +4,6 @@
 //
 //  Created by Natalie Hall on 8/16/21.
 //
-// pink: #AA367C  UIColor(red: 0.67, green: 0.21, blue: 0.49, alpha: 1.00)
-// green: #41FFA5  UIColor(red: 0.25, green: 1.00, blue: 0.65, alpha: 1.00)
 
 import UIKit
 
@@ -20,6 +18,7 @@ class CalculatorViewController: UIViewController {
     @IBOutlet weak var tipAmountLabel: UILabel!
     @IBOutlet weak var tipAmountNumberLabel: UILabel!
     @IBOutlet weak var totalNumberLabel: UILabel!
+    
     
     var calculator: Calculator?
     
